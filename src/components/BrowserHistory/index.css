@@ -39,7 +39,9 @@
   padding: 10px;
   font-family: 'Roboto';
   font-size: 16px;
-  width: 180px;
+  outline: none;
+  color: #ffffff;
+  width: 100%;
 }
 ::placeholder {
   color: #64748b;
@@ -49,11 +51,26 @@
 
 .content-bg-container {
   padding: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100%;
 }
 .list-container {
   box-shadow: 0px 0px 10px 0px #bfbfbf;
   border-radius: 5px;
   padding: 15px;
+  max-width: 1200px;
+}
+.empty-history-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.empty-history {
+  font-family: 'Roboto';
+  color: #475569;
+  font-size: 18px;
 }
 @media screen and (min-width: 768px) {
   .search-bar-container {

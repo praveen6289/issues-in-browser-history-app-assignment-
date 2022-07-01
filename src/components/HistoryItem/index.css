@@ -45,6 +45,11 @@
   padding-top: 30px;
   align-self: flex-start;
 }
+.delete-button {
+  border: none;
+  background-color: #ffffff;
+  cursor: pointer;
+}
 
 @media screen and (min-width: 768px) {
   .list-item {
